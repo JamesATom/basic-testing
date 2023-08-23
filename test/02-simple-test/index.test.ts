@@ -26,13 +26,6 @@ const testCases = [
 ]; 
 
 describe('simpleCalculator', () => {
-    // const getTestType = (testType) => {
-    //     switch(testType) {
-    //         case 'toBe':
-    //             return;
-    //     }
-    // }
-
     test.each(testCases)('Calculate $a $action $b should return $expected', ({a, b, action, expected}) => {
         // act
         const actual = simpleCalculator({a, b, action});
