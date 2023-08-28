@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:verbose": "jest --verbose"
+    "test:verbose": "jest --verbose",
+    "test:detect": "jest -- --detectOpenHandles",
+    "test:detect-force": "jest -- --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "axios": "^1.5.0",
     "lodash": "^4.17.21"
   }
 }
