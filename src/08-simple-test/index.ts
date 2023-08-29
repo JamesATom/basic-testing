@@ -16,5 +16,3 @@ export function generateLinkedList<T>(elements: T[]): LinkedListNode<T> {
     };
 };
 
-// const result = generateLinkedList([1, 2, 3]);
-// console.log('Result: ', result);
